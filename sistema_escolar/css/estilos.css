@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    background-image:url(../images/H.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.712);
+    margin: auto;
+    padding: 30px;
+}
+.central{
+    background: rgba(255, 255, 255, 0.349);
+    box-shadow: 7px 7px 10px rgba(185, 4, 221, 0.582);
+    color: black;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.central input{
+    height: 20px;
+    background: rgba(192, 192, 192, 0.486);
+    border-radius: 20px;
+}
+.central input:focus{
+    background-color: rgba(189, 19, 204, 0.61);
+}
+.central button{
+    padding: 10px;
+    border-radius: 20px;
+    border-color: 1px solid silver;
+    background: rgba(192, 192, 192, 0.486);
+    outline: none;
+    cursor: pointer;
+}
