@@ -1,0 +1,36 @@
+body{
+    background-image: url('/images/simon-berger-twukN12EN7c-unsplash.jpg');
+    background-position: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+.relogio{
+    background: rgba(255, 255, 255, 0.26);
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 2px 6px black;
+}
+.relogio div{
+    background: black;
+    color: white;
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.relogio span{
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
