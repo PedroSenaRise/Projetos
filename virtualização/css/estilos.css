@@ -1,0 +1,63 @@
+
+/*fontes virtualizadas*/
+@font-face {
+    font-family: assinatura;
+    src:url(../fonts/GODOFWAR.TTF);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(black 95%,green, darkgreen);
+    
+}
+img{
+    height: 150px;
+    border-radius: 50% ;
+    box-shadow: 0px 8px 0px darkslategray;
+    border: groove;
+}
+.central{
+    background: rgba(255, 255, 255, 0.842);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px  4px 4px green;
+    font-size: 15px;
+    height: fit-content;
+}
+.central .box1 {
+    font-family: assinatura;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(darkgreen, green, darkgreen);
+    border-radius: 8px;
+}
+hr{
+    height: 3px;
+    background: darkgreen;
+    border: none;
+}
+p{
+    text-align: justify;
+    font-family: assinatura;
+}
+@media (max-width:1024px) and (min-width: 768px){
+    body{
+        background: linear-gradient(black 60%,green, darkgreen);
+    }
+}
+@media (max-width: 768px) and (min-width:320px){
+    body{
+        background: linear-gradient(black 50%, green, darkgreen);
+    }
+}
+@media (max-width: 320px){
+    body{
+        background: black;
+    }
+}
